@@ -1,5 +1,4 @@
 <?PHP
-
         if ($_POST['mail_address'] >1){ 
             echo "<script> alert('Sorry bot, this is not the place for you!'); </script>";
         }else{
