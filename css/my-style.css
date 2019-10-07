@@ -1,0 +1,72 @@
+		
+		
+		@font-face {
+			  font-family: persianFont;
+			  src: url('../fonts/Yekan.eot');
+			  src: url('../fonts/Yekan.eot') format('eot'),
+				   url('../fonts/Yekan.woff') format('woff'),
+				   url('../fonts/Yekan.ttf') format('ttf');			  
+			}
+
+		.persian {
+			  font-family: persianFont;
+			  font-weight: normal;
+			  font-style: normal;
+			  font-size:1.5em;
+			  			}
+			
+		.courses {
+			font-size:100%;
+					}
+		.justified {
+			
+			text-align: justify;
+				}
+		
+		@keyframes example {
+				  0% {opacity: 1.0;}
+				  25% {opacity: 0.5;				  
+				    -ms-transform: rotate(2.5deg); /* IE 9 */
+				    -webkit-transform: rotate(2.5deg); /* Safari 3-8 */
+				    transform: rotate(2.5deg);}
+				  50% {opacity: 0.3; color:rgba(0,189,254,1.00); }
+				  75% {opacity: 0.5;				  
+				     -ms-transform: rotate(-2.5deg); /* IE 9 */
+					 -webkit-transform: rotate(-2.5deg); /* Safari 3-8 */
+					 transform: rotate(-2.5deg);}
+				  100% {opacity: 1.0; color:white}
+		}
+		@-webkit-keyframes example {
+				  0% {opacity: 1.0;}
+				  20% {opacity: 0.5;}
+				  40% {opacity: 0.1;}
+				  60% {opacity: 0.5;}
+				  100% {opacity: 1.0;}
+		}
+
+		
+		.targetPulse{
+			  position:relative;			
+			  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+			  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+			  animation-iteration-count: infinite;
+			  -webkit-animation-name: example;
+			  animation-duration: 4s;
+			  animation-iteration-count: infinite;
+			
+		}
+		
+		.idm{
+		     color:DarkCyan ;
+		}
+		.B2{
+		    color:LightGreen ;
+		    
+		}
+		.C1{
+		    color: YellowGreen  ;
+		    
+		}
+		.C2{
+		    color:GreenYellow   ;
+		    		}

@@ -1,0 +1,1 @@
+﻿positionForPages[73]={page:73,positions:[{word:"Version 9/ March 2018 ",left:0.066599,top:0.958727,width:0.162561,height:0.014195},{word:"73 ",left:0.914045,top:0.958727,width:0.021364,height:0.014195}]};
